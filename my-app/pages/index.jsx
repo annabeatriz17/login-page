@@ -18,10 +18,15 @@ export default function Home() {
             </div>
             <div className={styles.monster}>
                 <img src="/monster.png" alt="Monster"></img>
-            <button className={styles.button}>Login In</button>
-            <div className={styles.information}>
-                <p>Forgot your password?</p>
+                <button className={styles.button}>Login In</button>
+                <div className={styles.information}>
+                    <p>Forgot your password?</p>
+                </div>
             </div>
+            <div className={styles.footer}>
+                <h4>© 2021 Option Monster</h4>
+                <p>Terms of Service </p>
+                <p>Privacy Policy</p>
             </div>
         </div>
     );

@@ -1,7 +1,7 @@
 
 .container {
     width: 30%;
-    height: 70vh;
+    height: 80vh;
     margin: 5% auto;
     background-color:#ebebeb;
     border-radius: 50px;
@@ -80,7 +80,10 @@
     width: 40%;
     height: auto;
     display: flex;
+    padding: 90px;
+    margin: auto 10px;
 }
+
 .monster button {
     background-color:#81b622;
     height: 50px;
@@ -110,4 +113,13 @@
     font-size: 15px;
     text-decoration: underline;
     text-align: center;
+}
+
+.footer h4{
+    text-align: center;
+}
+
+.footer p {
+    text-align: center;
+    text-decoration: underline;
 }
