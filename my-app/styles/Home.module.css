@@ -22,8 +22,38 @@
     margin-top: 30px;
 }
 
-.login p {
+.email p {
     color: #000000;
-    font-size: 1.5rem;
-    margin-top: 2px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.email input {
+    font-family:'Courier New', Courier, monospace;
+    width: 45%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+
+.password p {
+    color: #000000;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.password input {
+    font-family:'Courier New', Courier, monospace;
+    width: 45%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 20px;
 }
