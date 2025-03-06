@@ -1,7 +1,29 @@
+
 .container {
     width: 30%;
     height: 80vh;
     margin: 5% auto;
-    background-color:#81b622;
+    background-color:#ebebe8;
     border-radius: 50px;
+}
+
+.login img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.login h1 {
+    color: #000000;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+
+.login p {
+    color: #000000;
+    font-size: 1.5rem;
+    margin-top: 2px;
 }
