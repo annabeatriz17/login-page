@@ -5,7 +5,8 @@ export default function Home() {
         <div className={styles.container}>
             <div className={styles.login}>
                 <img src="/optionmonster-logo.png" alt="Logo"></img>
-                <h1>Login</h1>
+                <h1>Login In</h1>
+                <p>Don't have an account? <a>Create an account</a></p>
             </div>
             <div className={styles.email}>
                 <p>Email Address</p>
@@ -15,7 +16,13 @@ export default function Home() {
                 <p>Password</p>
                 <input type="text" id="taskInput" placeholder="Digite sua senha"></input>
             </div>
-            <button>Login In</button>
+            <div className={styles.monster}>
+                <img src="/monster.png" alt="Monster"></img>
+            </div>
+            <button className={styles.button}>Login In</button>
+            <div className={styles.information}>
+                <p>Forgot your password?</p>
+            </div>
         </div>
     );
 }
