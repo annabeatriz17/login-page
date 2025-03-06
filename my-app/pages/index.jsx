@@ -9,19 +9,19 @@ export default function Home() {
                 <p>Don't have an account? <a>Create an account</a></p>
             </div>
             <div className={styles.email}>
-                <p>Email Address</p>
+                <p>Email Address:</p>
                 <input type="text" id="taskInput" placeholder="Digite seu email"></input>
             </div>
             <div className={styles.password}>
-                <p>Password</p>
+                <p>Password:</p>
                 <input type="text" id="taskInput" placeholder="Digite sua senha"></input>
             </div>
             <div className={styles.monster}>
                 <img src="/monster.png" alt="Monster"></img>
-            </div>
             <button className={styles.button}>Login In</button>
             <div className={styles.information}>
                 <p>Forgot your password?</p>
+            </div>
             </div>
         </div>
     );
