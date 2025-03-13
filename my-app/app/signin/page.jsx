@@ -1,17 +1,10 @@
 "use client"
 
-
+import styles from "../../styles/Signin.module.css";
 import { useState } from "react";
 
 
 export default function Home() {
-    const [input1, setInput1] = useState("");
-    const [input2, setInput2] = useState("");
-    const [match, setMatch] = useState(false);
-
-    const handleCheck = () => {
-        setMatch (input1 === input2 && input1 !== "");
-    };
 
     return (
         <div className={styles.container}>
@@ -22,11 +15,11 @@ export default function Home() {
             </div>
             <div className={styles.email}>
                 <p>Email Address:</p>
-                <input type="text" id="taskInput" placeholder="Digite seu email" value={input1} onChange={(e) => setInput1(e.target.value)}></input>
+                <input type="text" id="taskInput" placeholder="Digite seu email" ></input>
             </div>
             <div className={styles.password}>
                 <p>Password:</p>
-                <input type="text" id="taskInput" placeholder="Digite sua senha" value={input2} onChange={(e) => setInput2(e.target.value)}></input>
+                <input type="text" id="taskInput" placeholder="Digite sua senha"></input>
             </div>
             <div className={styles.logincontainer}>
             <button className={styles.loginbutton}>Log In</button>

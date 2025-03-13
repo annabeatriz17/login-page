@@ -1,4 +1,7 @@
-import styles from "../styles/signup.module.css";
+"use client"
+
+import styles from "../../styles/Signup.module.css";
+import { useState } from "react";
 
 export default function Signup() {
     return (
@@ -6,7 +9,7 @@ export default function Signup() {
             <div className={styles.login}>
                 <img src="/optionmonster-logo.png" alt="Logo"></img>
                 <h1> Sign Up</h1>
-                <p>Have an account? <a href="../pages/index.jsx">Log In</a></p>
+                <p>Have an account? <a href="/signin">Log In</a></p>
                 <div className={styles. email}>
                     <p>Email Address:</p>
                     <input type="text" id="taskInput" placeholder="Digite um email"></input>
