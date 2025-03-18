@@ -19,7 +19,13 @@ export default function Home() {
             </div>
             <div className={styles.logincontainer}>
             <button className={styles.loginbutton}>Reset Password</button>
-                <a href="" className="information">Return to Login</a> <a href="/signin">Return to Login</a>
+            <div className={styles.footer}>
+                <div className={styles.information}>
+                <p><a href="/signin">Retorn to Login</a></p>
+                <h4>Copyright © 2023 OptinMonster By Anna Beatriz</h4>
+                </div>
+                
+            </div>
         </div>
         </div>
     )
