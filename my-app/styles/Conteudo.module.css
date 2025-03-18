@@ -45,10 +45,11 @@
     font-size: 15px;
 }
 
-.information p {
+.info p {
     color: #000000;
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
+    color: #0476d0;
 }
 
 .footer h4{

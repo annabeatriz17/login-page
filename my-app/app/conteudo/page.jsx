@@ -17,13 +17,12 @@ export default function Conteudo() {
                 <h1>Gostos</h1>
                 <p>Gosto de ler, de escrever, de jogar, de fazer coisas divertidas e de conhecer pessoas novas. Gosto de aprender coisas novas e de se divertir.</p>
                 </div>
-            <div className={styles.information}>
-                <p> Thank you for visiting my website </p>
-            </div>
             <div className={styles.footer}>
                 <h4>© 2025 Option Monster By Anna Beatriz</h4>
             </div>
-            <div class
+            <div className={styles.info}>
+                <p>Thank you for visiting my website <a href="/signin">To go back</a></p>
+            </div>
         </div>
     );
 }
