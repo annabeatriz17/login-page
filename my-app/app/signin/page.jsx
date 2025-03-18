@@ -23,7 +23,7 @@ export default function Home() {
             </div>
             <div className={styles.logincontainer}>
             <button className={styles.loginbutton}>Log In</button>
-                <a href="#" className="information">Forgot your password?</a>
+                <a href="#" className="information"><a href="/password">Forgot Password?</a></a>
             </div>
             <div className={styles.footer}>
                 <h4>© 2025 Option Monster By Anna Beatriz</h4>

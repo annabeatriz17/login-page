@@ -22,11 +22,10 @@ export default function Home() {
             <div className={styles.footer}>
                 <div className={styles.information}>
                 <p><a href="/signin">Retorn to Login</a></p>
-                <h4>Copyright © 2023 OptinMonster By Anna Beatriz</h4>
+                <h4>Copyright © 2023 OptinMonster By <a href="/conteudo">Anna Beatriz</a></h4>
                 </div>
-                
+            </div>
             </div>
         </div>
-        </div>
-    )
-}
+        );
+    }

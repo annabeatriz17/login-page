@@ -1,0 +1,57 @@
+.container {
+    width: 45%;
+    height: 140vh;
+    margin: 2% auto;
+    background-color:#ebebeb;
+    border-radius: 50px;
+    box-shadow: #0476d0 0px 0px 30px;
+}
+
+.conteudo img {
+    width: 30%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.conteudo h1 {
+    color: #000000;
+    text-align:left;
+    font-size: 30px;
+    margin-top: 10%;
+    padding: 20px;
+}
+
+.conteudo p {
+    color: #000000;
+    text-align: justify;
+    margin: 20px;
+    font-size: 15px;
+}
+.gostos h1 {
+    color: #000000;
+    text-align:left;
+    font-size: 30px;
+    margin-top: 10%;
+    padding: 20px;
+}
+
+.gostos p {
+    color: #000000;
+    text-align: justify;
+    margin: 20px;
+    font-size: 15px;
+}
+
+.information p {
+    color: #000000;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer h4{
+    text-align: center;
+    margin: 10%;
+}
