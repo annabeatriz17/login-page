@@ -20,10 +20,10 @@ export default function Signup() {
                 </div>
                 <div className={styles.logincontainer}>
                     <button className={styles.loginbutton}>Sign Up</button>
-                    <a href="#" className="information">Forgot your password?</a>
+                    <a href="#" className="information"> <a href="/password">Forgot your password?</a></a>  
                 </div>
                 <div className={styles.footer}>
-                <h4>© 2021 Option Monster</h4>
+                <h4>© 2025 Option Monster By Anna Beatriz</h4>
                 </div>
             </div>
         </div>

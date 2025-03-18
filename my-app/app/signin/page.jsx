@@ -26,10 +26,7 @@ export default function Home() {
                 <a href="#" className="information">Forgot your password?</a>
             </div>
             <div className={styles.footer}>
-                <h4>© 2021 Option Monster</h4>
-            </div>
-            <div className={styles.monster}>
-                <img src="/monster.png" alt="Monster"></img>
+                <h4>© 2025 Option Monster By Anna Beatriz</h4>
             </div>
         </div>
     );

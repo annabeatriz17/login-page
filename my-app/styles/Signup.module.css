@@ -40,6 +40,7 @@
     padding-left: 20px;
     font-size: 18px;
     margin-top: 25px;
+    text-align:justify;
 }
 
 .email input {
@@ -60,6 +61,7 @@
     padding-left: 20px;
     font-size: 18px;
     margin-top: 20px;
+    text-align: justify;
 }
 
 .password input {
