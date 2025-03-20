@@ -20,8 +20,37 @@ export default function Conteudo() {
             </div>
                 <div className={styles.gostos}>
                 <h1>Gostos</h1>
-                <p>Gosto de ler, de escrever, de jogar, de fazer coisas divertidas e de conhecer pessoas novas. Gosto de aprender coisas novas e de se divertir.</p>
+                <p>Gosto de ler, de escrever, de fazer coisas divertidas e de conhecer pessoas novas. Gosto de aprender coisas novas e de me divertir.</p>
                 </div>
+            <div className={styles.card1}>
+                <div className={styles.icon1}>
+                    <img src="/iconvsco.png" alt="vscode"></img>
+                </div> 
+                <div className={styles.icon2}>
+                    <img src="/iconreact.png" alt="react"></img>
+                </div>
+                <div className={styles.icon3}>
+                    <img src="/iconmiro.png" alt="miro"></img>
+                </div>
+                <div className={styles.icon4}>
+                    <img src="/iconjs.png" alt="js"></img>
+                </div>  
+            </div>
+            <div className={styles.card2}>
+                <div className={styles.icon5}>
+                    <img src="/iconhtml.png" alt="html"></img>
+                </div> 
+                <div className={styles.icon6}>
+                    <img src="/icongithub.png" alt="github"></img>
+                </div>
+                <div className={styles.icon7}>
+                    <img src="/iconfigma.png" alt="figma"></img>
+                </div>
+                <div className={styles.icon8}>
+                    <img src="/iconcss.png" alt="css"></img>
+                </div>  
+            </div>
+            
             <div className={styles.footer}>
                 <h4>© 2025 Option Monster By Anna Beatriz</h4>
             </div>
@@ -29,5 +58,5 @@ export default function Conteudo() {
                 <p>Thank you for visiting My Profile <a href="/signin">To go back</a></p>
             </div>
         </div>
-    );
+        )
 }

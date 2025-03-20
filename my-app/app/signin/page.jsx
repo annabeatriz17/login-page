@@ -22,7 +22,7 @@ export default function Home() {
                 <input type="text" id="taskInput" placeholder="Digite sua senha"></input>
             </div>
             <div className={styles.logincontainer}>
-                    <button className={styles.loginbutton}>Sign Up</button>
+                    <button className={styles.loginbutton}>Sign In</button>
                     <div className={styles.information}><a href="/password">Forgot your password?</a></div>
                 </div>
             <div className={styles.footer}>
