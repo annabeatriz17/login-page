@@ -10,6 +10,9 @@ export default function Conteudo() {
         <div className={styles.container}>
             <div className={styles.conteudo}>
                 <img src="/foto.png" alt="Foto"></img>
+                <div className={}>
+                    
+                </div>
                 <h1>Sobre mim</h1>
                 <p>Me chamo Anna Beatriz, tenho 17 anos e hoje estou estudando na Rede Sesi e Senai em Valinhos - SP. NA rede Sesi estou no 3° ano do Ensino Médio, no meu último ano. Na Rede Senai estou no técnino de Desenvolvimento de Sistemas.</p>
                 </div>
