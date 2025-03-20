@@ -1,6 +1,6 @@
 .container {
     width: 70%;
-    height: 180vh;
+    height: 200vh;
     margin: 2% auto;
     background-color:#ebebeb;
     border-radius: 50px;
@@ -8,8 +8,10 @@
 }
 
 .conteudo h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration:underline;
     padding: 5%;
-    color: #000000;
+    color: #047bff;
     text-align: center;
     font-size: 30px;
 }
@@ -18,16 +20,23 @@
     margin-top: 2px;
     color: #000000;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .conteudo img {
-    width: 30%;
+    width: 25%;
     height: auto;
     margin: auto;
     display: flex;
     justify-content: center;
     padding-top: 1px;
+    border-radius: 50%;
+    box-shadow: #0476d0 0px 0px 30px;
+    transition: transform 0.1s ease-in-out;
+}
+
+.conteudo:hover img {
+    transform: scale(1.1);
 }
 
 .sobremim h1 {
@@ -67,7 +76,17 @@
     color: #047bff;
 }
 
+.language h1 {
+    color: #000000;
+    text-align:left;
+    font-size: 50px;
+    margin: 20px;
+    font-size: 15px;
+    padding-top: 8px;
+}
+
 .card1 {
+    padding: 2rem;
     display: flex;
     gap: 5rem;
     justify-content: center;
@@ -137,6 +156,6 @@
 }
 
 .footer h4{
+    margin: 1px;
     text-align: center;
-    margin: 10%;
 }

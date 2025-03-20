@@ -15,13 +15,16 @@ export default function Conteudo() {
                     
             </div>
             <div className={styles.sobremim}>
-                <h1>Sobre mim</h1>
+                <h1>Sobre mim:</h1>
                 <p>Me chamo Anna Beatriz, tenho 17 anos e hoje estou estudando na Rede Sesi e Senai em Valinhos - SP. NA rede Sesi estou no 3° ano do Ensino Médio, no meu último ano. Na Rede Senai estou no técnino de Desenvolvimento de Sistemas.</p>
             </div>
                 <div className={styles.gostos}>
-                <h1>Gostos</h1>
+                <h1>Gostos:</h1>
                 <p>Gosto de ler, de escrever, de fazer coisas divertidas e de conhecer pessoas novas. Gosto de aprender coisas novas e de me divertir.</p>
                 </div>
+            <div className={styles.language}>
+                <h1>Linguagens e Tecnologias:</h1>
+            </div>
             <div className={styles.card1}>
                 <div className={styles.icon1}>
                     <img src="/iconvsco.png" alt="vscode"></img>
