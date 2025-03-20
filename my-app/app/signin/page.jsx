@@ -22,9 +22,9 @@ export default function Home() {
                 <input type="text" id="taskInput" placeholder="Digite sua senha"></input>
             </div>
             <div className={styles.logincontainer}>
-            <button className={styles.loginbutton}>Log In</button>
-                <a href="#" className="information"><a href="/password">Forgot Password?</a></a>
-            </div>
+                    <button className={styles.loginbutton}>Sign Up</button>
+                    <a href="#" className="information"> <a href="/password">Forgot your password?</a></a>  
+                </div>
             <div className={styles.footer}>
             <h4>Copyright © 2023 OptinMonster By <a href="/conteudo">Anna Beatriz</a></h4>
             </div>
