@@ -104,13 +104,16 @@
 }
 
 .information {
-    color: #007BFF;
     font-size: 14px;
     margin-top: 10px;
     text-decoration: none;
+    font-weight: 900;
+    color: #047bff;
 }
 
 .footer h4{
     text-align: center;
     margin: 10%;
+    font-size: 90%;
+    font-weight: 900;
 }
