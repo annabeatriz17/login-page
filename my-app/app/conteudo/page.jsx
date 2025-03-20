@@ -61,5 +61,5 @@ export default function Conteudo() {
                 <p>Thank you for visiting My Profile <a href="/signin">To go back</a></p>
             </div>
         </div>
-        )
+        );
 }
